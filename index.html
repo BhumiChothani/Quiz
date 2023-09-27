@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+           <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>HTML quiz</h1>
+                    <div class="quiz-header">
+                        <span>quiz website tutorial</span>
+                        <span class="header-score">score: 0/5</span>
+                    </div>
+
+                    <h2 class="question-text">what does HTML stands for?</h2>
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. hyper text multi language...</span>
+                        </div>
+                        <div class="option">
+                            <span>B. hyper text multiple language...</span>
+                        </div>
+                        <div class="option">
+                            <span>C. hyper text markup language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. home text multi language</span>
+                        </div> -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 questions</span>
+                        <button class="next-btn">next</button>
+                    </div>    
+                </div>
+
+                <div class="result-box">
+                    <h2>quiz result!</h2>
+
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">your score 0 out of 5</span>
+                    </div>
+                    
+                    <div class="buttons">
+                        <button class="tryagain-btn">try again</button>
+                        <button class="goHome-btn">go to home</button>
+                    </div>
+                </div>
+
+           </section>
+
+           <section class="home">
+               <div class="home-content">
+                   <h1>Quiz website</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error harum 
+                       doloremque mollitia iure sapiente! Assumenda aspernatur, dolor harum ducimus 
+                       reprehenderit sint libero consequatur laudantium ratione, omnis deserunt quia 
+                       tenetur?</p>
+                    <button class="start-btn">start quiz</button>
+               </div>
+           </section>
+        </div>
+    </div>
+
+    <div class="popup-info">
+        <h2>quiz guide</h2>
+        <span class="info">1. Lorem ipsum dolor sit, amet adipisi</span>
+        <span class="info">2. Lorem ipsum dolor sit, amet consectetur adipisi</span>
+        <span class="info">3. Lorem ipsum dolor sit, amet consectetur</span>
+        <span class="info">4. Lorem ipsum dolor sit, amet consectetur adipisi</span>
+        <span class="info">5. Lorem ipsum dolor sit, amet consectetur adi</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">exit quiz</button>
+            <a href="#" class="info-btn continue-btn">continue</a>
+        </div>
+    </div>
+
+
+
+    <script src="question.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
